@@ -1,4 +1,8 @@
 /** @type {import('next').NextConfig} */
-const nextConfig = {}
+const nextConfig = {
+  images: {
+    domains: ["ipfs.fleek.co", "ipfs.io", "storageapi.fleek.co",'images.mirror-media.xyz'],
+  },
+};
 
-module.exports = nextConfig
+module.exports = nextConfig;
